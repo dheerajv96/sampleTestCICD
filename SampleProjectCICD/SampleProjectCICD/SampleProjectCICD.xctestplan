@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "634EE230-B0FD-4722-A8DB-D32190AD8BB3",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SampleProjectCICD.xcodeproj",
+      "identifier" : "1C7244A226B7FD5100A63775",
+      "name" : "SampleProjectCICD"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:SampleProjectCICD.xcodeproj",
+        "identifier" : "1C7244B326B7FD5900A63775",
+        "name" : "SampleProjectCICDTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:SampleProjectCICD.xcodeproj",
+        "identifier" : "1C7244BE26B7FD5900A63775",
+        "name" : "SampleProjectCICDUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -12,7 +12,7 @@
 		1C7244AB26B7FD5800A63775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7244AA26B7FD5800A63775 /* Assets.xcassets */; };
 		1C7244AE26B7FD5800A63775 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7244AD26B7FD5800A63775 /* Preview Assets.xcassets */; };
 		1C7244B926B7FD5900A63775 /* SampleProjectCICDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7244B826B7FD5900A63775 /* SampleProjectCICDTests.swift */; };
-		1C7244C426B7FD5900A63775 /* SampleProjectCICDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7244C326B7FD5900A63775 /* SampleProjectCICDUITests.swift */; };
+		1CDA527626B983A200B424E2 /* SampleProjectCICDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7244C326B7FD5900A63775 /* SampleProjectCICDUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +45,7 @@
 		1C7244BF26B7FD5900A63775 /* SampleProjectCICDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleProjectCICDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7244C326B7FD5900A63775 /* SampleProjectCICDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleProjectCICDUITests.swift; sourceTree = "<group>"; };
 		1C7244C526B7FD5900A63775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CDA527226B9629A00B424E2 /* SampleProjectCICD.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = SampleProjectCICD.xctestplan; path = SampleProjectCICD/SampleProjectCICD.xctestplan; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,8 @@
 		1C7244A526B7FD5100A63775 /* SampleProjectCICD */ = {
 			isa = PBXGroup;
 			children = (
+				1CDA527226B9629A00B424E2 /* SampleProjectCICD.xctestplan */,
+				1C7244C326B7FD5900A63775 /* SampleProjectCICDUITests.swift */,
 				1C7244A626B7FD5100A63775 /* SampleProjectCICDApp.swift */,
 				1C7244A826B7FD5100A63775 /* ContentView.swift */,
 				1C7244AA26B7FD5800A63775 /* Assets.xcassets */,
@@ -124,7 +127,6 @@
 		1C7244C226B7FD5900A63775 /* SampleProjectCICDUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1C7244C326B7FD5900A63775 /* SampleProjectCICDUITests.swift */,
 				1C7244C526B7FD5900A63775 /* Info.plist */,
 			);
 			path = SampleProjectCICDUITests;
@@ -261,6 +263,7 @@
 			files = (
 				1C7244A926B7FD5100A63775 /* ContentView.swift in Sources */,
 				1C7244A726B7FD5100A63775 /* SampleProjectCICDApp.swift in Sources */,
+				1CDA527626B983A200B424E2 /* SampleProjectCICDUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +279,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C7244C426B7FD5900A63775 /* SampleProjectCICDUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
