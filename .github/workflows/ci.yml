@@ -28,6 +28,9 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
+        
+      - name: Test TestPlan
+        run:  xcodebuild test -scheme sampleTestCICD -destination 'platform=iOS Simulator,OS=13.3,name=iPhone 8' -testPlan sampleTestCICD
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
