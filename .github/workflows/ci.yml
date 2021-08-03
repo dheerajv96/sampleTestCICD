@@ -28,6 +28,11 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
+        
+     - name: Select Xcode
+      run: sudo xcode-select -switch /Applications/Xcode_12.2.app && /usr/bin/xcodebuild -version
+     - name: Run unit tests
+      run: xcodebuild test -scheme sampleTestCICD -workspace sampleTestCICD.xcworkspace -destination 'platform=iOS Simulator,name=iPhone 11,OS=14.2' | xcpretty && exit ${PIPESTATUS[0]}    
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
